@@ -13,3 +13,10 @@
   for = "/content/*"
   [headers.values]
     Cache-Control = "public, max-age=0, must-revalidate"
+
+# The Shop page was split into Watches and Bags. Keep the old URL working.
+[[redirects]]
+  from = "/shop.html"
+  to = "/watches.html"
+  status = 301
+  force = true

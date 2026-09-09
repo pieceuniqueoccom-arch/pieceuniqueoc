@@ -10,8 +10,8 @@ form; everything else is plain HTML.
 
 ```
 index.html          Home
-shop.html           Everything, with Watches / Handbags tabs and brand filters
-bags.html           Handbags only — the Bags link in the menu
+watches.html        Watches, with brand filters
+bags.html           Handbags, with brand filters
 gallery.html        Photo grid — still here but no longer linked in the menu
 sell.html           Sell Your Watch + inquiry form
 consign.html        Consign Your Watch + consignment form
@@ -88,7 +88,7 @@ and handbags, with an **Add** button.
 
 | Field | What it does |
 |---|---|
-| Category | Watches or Handbags. Decides which tab it sits under on the Shop page; handbags also appear on the Bags page automatically. |
+| Category | Watches or Handbags. Decides which of the two pages it appears on. Nothing else to do — the page picks it up automatically. |
 | Brand | Also creates the filter button. Spell it identically across pieces of the same brand or you'll get two buttons. Hermès needs its accent. |
 | Model | The large name on the card. |
 | Reference and specs | The grey line underneath. Watches: `Ref. 116500LN — Oystersteel, White Dial`. Bags: `Togo Leather, Gold Hardware — Stamp B`. |
@@ -107,10 +107,13 @@ Photos land in `assets/img/`. Keep them under about 300KB;
 A sold Daytona or Birkin with a price still tells a visitor what you handle.
 Delete it once it stops being useful.
 
-**The menu is Shop, Bags, Sell, Consign, Contact.** Shop holds everything with
-category tabs; Bags is a shortcut straight to handbags. Gallery was removed
-from the menu — `gallery.html` is still in the folder, so it can come back by
-adding one line to the nav in each page.
+**The menu is Watches, Bags, Sell, Consign, Contact.** Two separate shop
+pages, each with its own brand filters, and matching Shop Watches / Shop Bags
+cards on the home page. The old `/shop.html` address redirects to
+`/watches.html`, so any link already out there still works.
+
+Gallery was removed from the menu — `gallery.html` is still in the folder, so
+it can come back by adding one line to the nav in each page.
 
 ---
 
