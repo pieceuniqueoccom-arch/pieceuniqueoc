@@ -1,0 +1,15 @@
+# Netlify configuration
+# The site is plain HTML with no build step, so Netlify just publishes
+# this folder as-is. This file matters once the site is connected to a
+# GitHub repository — it stops Netlify from looking for a build command.
+
+[build]
+  publish = "."
+  command = ""
+
+# Content files must never be cached aggressively, or inventory edits
+# made in the admin panel take a long time to appear for visitors.
+[[headers]]
+  for = "/content/*"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"

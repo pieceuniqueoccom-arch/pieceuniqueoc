@@ -1,0 +1,174 @@
+{
+  "watches": [
+    {
+      "category": "Watches",
+      "brand": "Rolex",
+      "name": "Cosmograph Daytona",
+      "ref": "Ref. 000000 — Oystersteel, White Dial",
+      "price": "$00,000",
+      "tag": "New Arrival",
+      "image": "/assets/img/watch-placeholder.svg",
+      "featured": true
+    },
+    {
+      "category": "Watches",
+      "brand": "Rolex",
+      "name": "Yacht-Master 40",
+      "ref": "Ref. 000000 — Rolesium, Slate Dial",
+      "price": "$00,000",
+      "tag": "None",
+      "image": "/assets/img/watch-placeholder.svg",
+      "featured": false
+    },
+    {
+      "category": "Watches",
+      "brand": "Patek Philippe",
+      "name": "Nautilus",
+      "ref": "Ref. 0000/0A — Stainless Steel",
+      "price": "Inquire",
+      "tag": "Consignment",
+      "image": "/assets/img/watch-placeholder.svg",
+      "featured": true
+    },
+    {
+      "category": "Watches",
+      "brand": "Audemars Piguet",
+      "name": "Royal Oak Selfwinding",
+      "ref": "Ref. 00000ST — 41mm, Blue Dial",
+      "price": "$00,000",
+      "tag": "None",
+      "image": "/assets/img/watch-placeholder.svg",
+      "featured": false
+    },
+    {
+      "category": "Watches",
+      "brand": "Rolex",
+      "name": "Sky-Dweller",
+      "ref": "Ref. 000000 — Oystersteel & Yellow Gold",
+      "price": "$00,000",
+      "tag": "None",
+      "image": "/assets/img/watch-placeholder.svg",
+      "featured": false
+    },
+    {
+      "category": "Watches",
+      "brand": "Richard Mille",
+      "name": "RM 00-00",
+      "ref": "Ref. RM00-00 — Titanium",
+      "price": "Inquire",
+      "tag": "None",
+      "image": "/assets/img/watch-placeholder.svg",
+      "featured": false
+    },
+    {
+      "category": "Watches",
+      "brand": "Cartier",
+      "name": "Santos de Cartier",
+      "ref": "Ref. 0000 — Large Model, Steel",
+      "price": "$00,000",
+      "tag": "None",
+      "image": "/assets/img/watch-placeholder.svg",
+      "featured": false
+    },
+    {
+      "category": "Watches",
+      "brand": "Rolex",
+      "name": "Submariner Date",
+      "ref": "Ref. 000000 — Oystersteel, Black",
+      "price": "$00,000",
+      "tag": "None",
+      "image": "/assets/img/watch-placeholder.svg",
+      "featured": false
+    },
+    {
+      "category": "Watches",
+      "brand": "Tudor",
+      "name": "Black Bay 58",
+      "ref": "Ref. 00000 — 39mm, Steel",
+      "price": "$0,000",
+      "tag": "None",
+      "image": "/assets/img/watch-placeholder.svg",
+      "featured": false
+    },
+    {
+      "category": "Watches",
+      "brand": "Patek Philippe",
+      "name": "Aquanaut",
+      "ref": "Ref. 0000A — Stainless Steel",
+      "price": "Inquire",
+      "tag": "None",
+      "image": "/assets/img/watch-placeholder.svg",
+      "featured": false
+    },
+    {
+      "category": "Watches",
+      "brand": "Audemars Piguet",
+      "name": "Royal Oak Offshore",
+      "ref": "Ref. 00000ST — 42mm Chronograph",
+      "price": "$00,000",
+      "tag": "None",
+      "image": "/assets/img/watch-placeholder.svg",
+      "featured": false
+    },
+    {
+      "category": "Handbags",
+      "brand": "Hermès",
+      "name": "Birkin 25",
+      "ref": "Togo Leather, Gold Hardware — Stamp 0",
+      "price": "$00,000",
+      "tag": "New Arrival",
+      "image": "/assets/img/bag-placeholder.svg",
+      "featured": true
+    },
+    {
+      "category": "Handbags",
+      "brand": "Hermès",
+      "name": "Birkin 30",
+      "ref": "Epsom Leather, Palladium Hardware — Stamp 0",
+      "price": "$00,000",
+      "tag": "None",
+      "image": "/assets/img/bag-placeholder.svg",
+      "featured": false
+    },
+    {
+      "category": "Handbags",
+      "brand": "Hermès",
+      "name": "Kelly 28",
+      "ref": "Sellier, Box Calf — Stamp 0",
+      "price": "Inquire",
+      "tag": "None",
+      "image": "/assets/img/bag-placeholder.svg",
+      "featured": false
+    },
+    {
+      "category": "Handbags",
+      "brand": "Chanel",
+      "name": "Classic Flap, Medium",
+      "ref": "Caviar Leather, Gold Hardware — Series 00",
+      "price": "$00,000",
+      "tag": "None",
+      "image": "/assets/img/bag-placeholder.svg",
+      "featured": true
+    },
+    {
+      "category": "Handbags",
+      "brand": "Chanel",
+      "name": "Chanel 19, Large",
+      "ref": "Lambskin, Mixed Hardware — Series 00",
+      "price": "$00,000",
+      "tag": "None",
+      "image": "/assets/img/bag-placeholder.svg",
+      "featured": false
+    },
+    {
+      "category": "Handbags",
+      "brand": "Chanel",
+      "name": "Boy Bag, Old Medium",
+      "ref": "Caviar Leather, Ruthenium Hardware — Series 00",
+      "price": "$00,000",
+      "tag": "Consignment",
+      "image": "/assets/img/bag-placeholder.svg",
+      "featured": false
+    }
+  ]
+}
