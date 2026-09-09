@@ -1,0 +1,90 @@
+media:
+  input: assets/img
+  output: /assets/img
+  categories: [image]
+
+content:
+  - name: inventory
+    label: Inventory
+    type: file
+    path: content/inventory.json
+    icon: watch
+    fields:
+      - name: watches
+        label: Pieces
+        type: object
+        list: true
+        fields:
+          - name: category
+            label: Category
+            type: select
+            default: Watches
+            options:
+              values: [Watches, Handbags]
+            required: true
+            description: Decides which page it appears on — the Watches page or the Bags page.
+          - name: brand
+            label: Brand
+            type: string
+            required: true
+            description: Also creates the filter button. Spelling must match between pieces of the same brand — Hermès needs its accent.
+          - name: name
+            label: Model
+            type: string
+            required: true
+          - name: ref
+            label: Reference and specs
+            type: string
+            description: "Shown under the model name. Watches: Ref. 116500LN — Oystersteel, White Dial. Bags: Togo Leather, Gold Hardware — Stamp B"
+          - name: price
+            label: Price
+            type: string
+            description: "Type it as you want it shown, e.g. $46,000. Use Inquire for price on request."
+          - name: tag
+            label: Badge
+            type: select
+            default: None
+            options:
+              values: [None, New Arrival, Consignment, Sold]
+            description: Small label on the photo. Choose None for no badge.
+          - name: image
+            label: Photo
+            type: image
+            description: Square photo works best, around 1200 x 1200.
+          - name: featured
+            label: Show on the home page
+            type: boolean
+            default: false
+            description: Keep four pieces featured at a time — a mix of watches and bags reads best.
+
+  - name: site
+    label: Contact details
+    type: file
+    path: content/site.json
+    icon: phone
+    fields:
+      - name: phone_display
+        label: Phone (as shown)
+        type: string
+        description: "Example: +1 (949) 555-1234"
+      - name: phone_link
+        label: Phone (digits only)
+        type: string
+        description: "Used by the tap-to-call links. Example: +19495551234 — no spaces, brackets or dashes."
+      - name: email
+        label: Email
+        type: string
+      - name: address_line1
+        label: Address line 1
+        type: string
+      - name: address_line2
+        label: Address line 2
+        type: string
+        description: "City, state and ZIP."
+      - name: instagram_url
+        label: Instagram link
+        type: string
+      - name: instagram_handle
+        label: Instagram handle
+        type: string
+        description: "Including the @."
